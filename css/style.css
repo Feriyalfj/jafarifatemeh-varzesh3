@@ -1,0 +1,289 @@
+
+.list-inline-item {
+  font-size: .89em;
+  font-weight: 500;
+}
+
+.img-panel {
+  border-radius: 4px;
+}
+/* ++++++++++++++++++++ */
+
+.swiper {
+  height: 250px;
+  width: 614px;
+}
+.swiper-slide {
+  display: flex;
+  flex-direction: row-reverse;
+}
+a {
+  position: relative;
+  z-index: 5;
+}
+.img-swiper {
+  width: 307px;
+  height: 250px;
+}
+.length {
+  width: 307px;
+  height: 250px;
+}
+.btn-pagination {
+  margin-top: -3rem;
+  margin-right: 17rem;
+  z-index: 5;
+}
+.title {
+  font-size: 12px;
+}
+.headline {
+  font-size: 19px;
+  font-weight: 600;
+}
+.lead {
+  font-size: 13px;
+  font-weight: 400;
+  text-align: justify !important;
+}
+a:hover {
+  text-decoration: none;
+}
+
+.swiper-pagination {
+  position: absolute;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  direction: ltr;
+  margin-left: 5rem;
+  color: red !important;
+}
+
+.swiper-pagination-bullet {
+  padding: 10px;
+  margin: 2px;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  border-radius: 4px !important;
+}
+
+.swiper-pagination-bullet-active {
+  color: #ffffff !important;
+  background: #007aff !important;
+}
+.next-m {
+  margin-left: 19rem;
+}
+
+.img-swiper {
+  animation-name: zooming;
+  animation-duration: 6s;
+  animation-delay: 3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes zooming {
+  0%{
+    transform: scale(.99);
+  }
+  50% {
+    transform: scale(1) translateX(-0.9%);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+/* ______________________ */
+
+.lig {
+  width: 300px !important;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-top: 4px solid #00838f;
+  border-bottom-right-radius: 7px;
+  border-bottom-left-radius: 7px;
+}
+.lig2 {
+  border-bottom-right-radius: 7px;
+  border-bottom-left-radius: 7px;
+}
+.title-lig {
+  font-size: 16px;
+  font-weight: 700;
+}
+.font {
+  font-size: 12px;
+  font-weight: 500;
+}
+.font-lig {
+  font-size: 14px;
+  font-weight: 400;
+}
+.font-right {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 2;
+}
+.text-point {
+  font-size: 13px;
+  font-weight: 500;
+} 
+.rtl {
+  transform: rotate(180deg);
+}
+.text-point2 {
+  font-size: 14px;
+  font-weight: 400;
+} 
+.font-tbody {
+  font-size: 12px;
+  font-weight: 400;
+}
+.Text {
+  text-align: end;
+}
+.text-table {
+  font-size: 12px;
+  font-weight: 600;
+}
+.font-th{
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 2;
+}
+.font-tr {
+  font-size: 12px !important;
+  font-weight: 500;
+  line-height: 2;
+}
+.Lig {
+  width: 300px !important;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-top: 4px solid #00838f;
+}
+/* ++++++++++++++++++ */
+
+.active-nav {
+  padding-bottom: 10px;
+  border-bottom: 2px solid #ccc;
+}
+.content {
+  display: none;
+}
+.active-content {
+  display: block ;
+}
+.fonta {
+  font-size: 12px;
+  font-weight: 500;
+  width: 100%;
+  padding: 3px 0;
+}
+.handel {
+  height: 800px;
+  overflow-y: scroll;
+}
+.scroll {
+  height: 300px;
+  overflow-y: scroll;
+}
+.scroll2 {
+  height: 300px;
+  overflow-y: scroll;
+}
+/* ++++++++++++ */
+.font-bastitbol {
+  font-size: 13px;
+  font-weight: 500;
+}
+.host {
+  font-size: 10px;
+}
+/* ++++++++++++++++++++ */
+
+.swiper1 {
+  height: 290px;
+  width: 300px;
+}
+.swiper-slide1 {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.img-swiper1 {
+  width: 300px;
+  height: 290px;
+}
+/* +++++++++++++++++ */
+
+.font-live {
+  font-size: 16px;
+  font-weight: 700;
+}
+.font-anten {
+  font-size: 12px;
+}
+/* ++++++second-right+++++ */
+.active-Nav{
+  border-bottom: 2px solid #00838f;
+}
+.img-video {
+  width: 120px;
+  height: 70px;
+}
+
+.duration {
+  position: absolute;
+  z-index: 10;
+  margin-top: 20px;
+}
+.bg-shado {
+  background-image: linear-gradient( 
+    51deg, rgba(23, 26, 60, 0.7) 5%,
+     rgba(23, 26, 60, 0.3) 95% );
+}
+
+.Font {
+  font-size: 13px;
+  font-weight: 400;
+}
+.bow {
+  margin-top: 140px;
+}
+/* ++++++++++++++ */
+
+.footer {
+  background-color: #19242e;
+  background-image: url(../img/shared/footer/footerbg.svg);
+}
+
+.section-cities {
+  background-color: #19242e;
+  background-image: url(../img/shared/footer/footerbg.svg);
+}
+.fontf{
+  font-size: 18px;
+  font-weight: 700;
+}
+ul {
+  line-height: 2;
+}
+
+.BORDER  {
+  border-bottom: 1px solid #999;
+}
+.footerfont {
+  font-size: 13px;
+}
+
+
+
+
+
+
+
+
+

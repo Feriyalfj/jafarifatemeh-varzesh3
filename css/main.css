@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+
+:root{
+  --mainBlue:#40ACF1;
+  --transparentBlue:rgba(64, 172, 241,0.7);
+  --mainWhite:#FFFFFF;
+  --mainBlack:#292F36;
+  --mainGrey: #d9d9d9;
+  --mainYellow:#e3b505;
+  --mainRed: #dc3545;
+  --mainorange: #fd7e14;
+  --maindark: #212529;
+  --mainDarkBlue: #007bff;
+  --maincyan: #17a2b8;
+ 
+}
+
+
+body{
+  font-family: 'Roboto', sans-serif;
+  color: var(--mainBlack);
+  background: var(--mainWhite);
+}
+
+
+
